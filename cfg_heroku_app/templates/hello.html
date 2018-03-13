@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>My Flask App Page</title>
+    </head> 
+    <body>
+        <div id="contact-form">
+            <form method="post" action="/sendmail">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required="required">
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" required="required">
+                <input type="submit" value="Submit" id="submit-button">
+            </form>
+        </div>
+    </body>
+</html>
